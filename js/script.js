@@ -13,23 +13,16 @@ $(document).ready(function() {
 	);
 
 
-	$('li').on("mouseenter", function(){
-		$(this).animate({
-			top: "-=40px",
-		})
+	$('li').hover(
+		function() {
+			$(this).animate({
+				top: "-=40px",
+			}, 100)
+		}, function() {
+			$(this).animate({
+				top: "+=40px",
+			}, 100)
+		}
+	);
 
-	});
-
-	$('li').on("mouseleave"), function(){
-		$(this).animate({
-			top: "+=40px",
-		})
-	};
-	// $('li').mouseover(function() {
-	// 	$(this).animate({
-	// 		top: "-=40px"
-	// 	}, 400, function() {
-	// 		$(this).
-	// 	})
-	// });
 });	
