@@ -13,15 +13,15 @@ $(document).ready(function() {
 	);
 
 
-	$('li').hover(
+	$('li').hoverIntent(
 		function() {
 			$(this).animate({
-				top: "-=40px",
-			}, 100)
+				top: "-=50px",
+			}, 300)
 		}, function() {
 			$(this).animate({
-				top: "+=40px",
-			}, 100)
+				top: "+=50px",
+			}, 300)
 		}
 	);
 

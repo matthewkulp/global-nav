@@ -26,7 +26,6 @@ body {
     color: black;
 }
 
-
 #globalNav {
 	width:100%;
 	background-color: #ff466d;
@@ -40,7 +39,7 @@ body {
 }
 
 #globalNav a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a.navButton {
@@ -49,9 +48,6 @@ a.navButton {
 	height: 26px;
 	top: 10px;
 	right: 30px;
-	/* border: 3px solid black;
-	border-radius: 18px;
-	margin-left: -20px; */ /* Half the width */
 	font-size: 40px;
 	text-align: center;
 	cursor: pointer;
@@ -67,30 +63,35 @@ a.navButton {
 ul, ol {
 	margin: 0;
 	padding: 50px 0 20px;
+	margin: 0 auto;
 	
 }
 
 ul.destination {
-	width: 630px;
+	width: 590px;
 	overflow: hidden;
 	
 }
 
 li {
 	list-style: none;
-	font-size: 100px;
+	font-size: 110px;
 	font-weight: 900;
 	text-align: left;
 	position: relative;
-	/* font-family: ff-meta-serif-web-pro, "Georgia"; */
+	margin-bottom: -20px;
+	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;;
 }
+
+
 
 .lineMask {
 	background-color: black;
 	width: 100%;
-	height: 46px;
-	top: -46px;
+	height: 50px;
+	top: -45px;
 	position: relative;
-	background-color: #ff466d;
-	border-top: 15px white solid
+	background-color: white;
+	border-top: 10px #ff466d solid;
+	border-bottom: 28px #ff466d solid;
 }
