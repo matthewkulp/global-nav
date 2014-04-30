@@ -74,23 +74,24 @@ ul.destination {
 }
 
 li {
+	position: relative;
+	margin-bottom: -44px;
 	list-style: none;
 	font-size: 110px;
 	font-weight: 900;
 	text-align: left;
-	position: relative;
-	margin-bottom: -20px;
-	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;;
+	letter-spacing: -6px;
+	font-family: 'Montserrat', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;;
+	
 }
 
 
 
 .lineMask {
-	background-color: black;
-	width: 100%;
-	height: 50px;
-	top: -45px;
 	position: relative;
+	width: 100%;
+	height: 52px;
+	bottom: 10px;
 	background-color: white;
 	border-top: 10px #ff466d solid;
 	border-bottom: 28px #ff466d solid;

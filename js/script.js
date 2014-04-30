@@ -16,11 +16,11 @@ $(document).ready(function() {
 	$('li').hoverIntent(
 		function() {
 			$(this).animate({
-				top: "-=50px",
+				top: "-=38px",
 			}, 300)
 		}, function() {
 			$(this).animate({
-				top: "+=50px",
+				top: "+=38px",
 			}, 300)
 		}
 	);
