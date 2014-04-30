@@ -112,4 +112,6 @@
         // listen for mouseenter and mouseleave
         return this.on({'mouseenter.hoverIntent':handleHover,'mouseleave.hoverIntent':handleHover}, cfg.selector);
     };
-})(jQuery);
+})
+
+(jQuery);
