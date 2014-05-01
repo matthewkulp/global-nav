@@ -44,21 +44,29 @@ body {
 
 a.navButton {
 	position: absolute;
-	width: 26px;
-	height: 26px;
+	width: 33px;
+	height: 33px;
 	top: 10px;
 	right: 30px;
-	font-size: 40px;
+	font-size: 36px;
 	text-align: center;
 	cursor: pointer;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	line-height: 22px;
+	line-height: 28px;
 	background-color: white;
-	color: salmon;
+	color: #ff466d;
 
 }
+
+/*a.navButton:hover {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}*/
 
 ul, ol {
 	margin: 0;
